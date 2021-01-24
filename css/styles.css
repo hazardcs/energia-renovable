@@ -1,0 +1,129 @@
+@font-face{
+    font-family: OpenSans;
+    src: url(/fonts/open_sans.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000;
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    font-weight: 300;
+    padding: 60px 0;
+    background-color: #578ff1;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 40px 0;
+}
+
+nav a{
+    font-size: 18px;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #333e50;
+    color: #fff;
+}
+
+nav a:hover{
+    transition: all 300ms;
+}
+
+.main-description{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-description img{
+    width: 350px;
+    float: left;
+    padding: 15px 15px 15px 0;
+}
+
+.main-description h2{
+    padding: 10px 0;
+}
+
+.main-description p{
+    font-size: 16px;
+    padding: 15px 15px 15px 0;
+    line-height: 2;
+}
+
+.main-description:last-of-type{
+    padding-bottom: 50px;
+}
+
+.r-img{
+    float: right !important;
+    padding: 15px 0 15px 15px !important;
+}
+
+.l-img{
+    float: left !important;
+    padding: 15px 15px 0 0 !important;
+}
+
+.energies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.energy-container{
+    flex-basis: 45%;
+    margin-bottom: 35px;
+}
+
+.energy-container h2{
+    text-align: center;
+}
+
+.energy-container img{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.energy-container p{
+   line-height: 2;
+}
+
+.ventajas-container{
+    margin: 10px 40px 40px 50px;
+}
+
+.ventajas-container img{
+    width: 30%;
+    float: right;
+}
+
+.ventajas-container p{
+    font-size: 18px;
+    line-height: 2.2;
+}
+
+footer{
+    clear: both;
+    padding: 20px 0;
+    background-color: #333e50;
+    font-size: 18px;
+}
+
+footer span{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    color: #fff;
+}
